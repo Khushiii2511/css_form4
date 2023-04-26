@@ -1,0 +1,46 @@
+h1{background-color:blue;}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/abstract-dna-molecules-structure-science-technology-background-illustration-vector-119136443.jpg");
+    background-size: cover;
+    }
+.input_container{
+    padding: 12px;
+    background-color: transparent;
+    width: 25vw;
+    border: blue solid;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    outline: none;
+    
+    
+}
+.container{
+    border-width: 3px;
+    border-color: blue;
+    border-style: solid;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30%;
+}
+.box{
+    color:blue;
+    font-size: x-large;
+}
+.box2{
+    color:blue;
+    font-size: larger;
+}
+@media screen and (max-width:600px){
+    .container{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .input_container{
+        width: 60vw;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+}
